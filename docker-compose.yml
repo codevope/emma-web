@@ -21,7 +21,7 @@ services:
   # Aplicación Next.js
   webapp:
     build:
-      context: ./web
+      context: .
       dockerfile: Dockerfile
     container_name: emma_webapp
     restart: unless-stopped
